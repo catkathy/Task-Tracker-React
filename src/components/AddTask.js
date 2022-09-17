@@ -1,4 +1,5 @@
 import { useState } from 'react';
+// import
 
 const AddTask = ({ onAdd }) => {
     const [text, setText] = useState('');
@@ -35,7 +36,7 @@ const AddTask = ({ onAdd }) => {
                 <label>Day & Time</label>
                 <input
                     type='text'
-                    placeholder='Add Day & Time'
+                    placeholder='Add Date & Time'
                     value={day}
                     onChange={e => setDay(e.target.value)}
                 />
